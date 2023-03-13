@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="192.168.100.213" id="362761bc-a372-4ab8-9ef3-74862b5ed8fd" port="22" nameFormat="DESCRIPTIVE" username="tsc-user" />
+      <sshConfig authType="PASSWORD" host="192.168.100.218" id="35a88be2-a511-4c99-8982-96cba3466177" port="22" nameFormat="DESCRIPTIVE" username="tsc-admin" />
+    </configs>
+  </component>
+</project>

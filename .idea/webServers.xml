@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="127ae41c-b206-4cbc-a90b-eef64f19a32c" name="CRON_LIVE" url="http://192.168.100.213">
+        <fileTransfer accessType="SFTP" host="192.168.100.213" port="22" sshConfigId="362761bc-a372-4ab8-9ef3-74862b5ed8fd" sshConfig="tsc-user@192.168.100.213:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="fbe5d825-96ec-4d48-ad4e-3818874c5adc" name="SERVICES_LIVE" url="http://192.168.100.218">
+        <fileTransfer rootFolder="/var/www/html" accessType="SFTP" host="192.168.100.218" port="22" sshConfigId="35a88be2-a511-4c99-8982-96cba3466177" sshConfig="tsc-admin@192.168.100.218:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
